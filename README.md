@@ -26,6 +26,16 @@ The first launch imports the included assets. Vulkan Forward+ was verified on
 an NVIDIA GeForce RTX 3060 Laptop GPU with 6 GB of VRAM. VSync is disabled and
 the frame rate is capped at 60 to avoid the observed desktop presentation stall.
 
+On Omarchy or another Linux desktop, install an application launcher with:
+
+```sh
+python3 desktop/install.py
+```
+
+Search for **Valley of Tears** in the app launcher to start exploring. The
+launcher also provides an **Edit in Godot** action. Installation is per user
+and needs no sudo. Rerun the installer if you move the checkout.
+
 ## Explore
 
 Click the scene to capture the mouse. Move with WASD and look with the mouse.

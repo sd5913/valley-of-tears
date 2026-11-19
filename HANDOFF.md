@@ -42,6 +42,9 @@ shutdown; the live visual and input checks complete without script errors.
 ## Tomorrow
 
 Open `godot/project.godot`, or play the finished video under `blender/`.
+The installed Omarchy app launcher entry is **Valley of Tears**. Its installer
+and artwork icon are preserved in `desktop/`; run `python3 desktop/install.py`
+to reinstall it after moving or cloning the checkout.
 The repository includes the complete frame sequence, so its Git history is
 several hundred megabytes. Every individual file is below 100 MB. Git LFS is
 not installed or required for this checkpoint. Continue work on the `main`
