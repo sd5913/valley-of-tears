@@ -1,7 +1,8 @@
 # Saved Checkpoint
 
 The local repository is `/home/venetanji/Projects/valley-of-tears`.
-No remote has been configured and nothing has been pushed.
+The public GitHub repository is `https://github.com/sd5913/valley-of-tears`,
+configured as `origin`.
 
 ## Preserved
 
@@ -36,11 +37,12 @@ shutdown; the live visual and input checks complete without script errors.
 - All 288 sequential PNG frames are present; all Python sources parse.
 - Both saved Blender scenes opened with no missing external image dependencies.
 - Every individual source or asset file is below 100 MB.
+- A deliberately broken camera state correctly makes the test harness exit 1.
 
 ## Tomorrow
 
 Open `godot/project.godot`, or play the finished video under `blender/`.
-The repository includes the complete frame sequence, so the initial push is
+The repository includes the complete frame sequence, so its Git history is
 several hundred megabytes. Every individual file is below 100 MB. Git LFS is
-not installed or required for this local checkpoint. Choose the destination
-remote before pushing.
+not installed or required for this checkpoint. Continue work on the `main`
+branch and push future commits to `origin`.

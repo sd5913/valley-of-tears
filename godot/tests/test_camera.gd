@@ -1,6 +1,7 @@
 extends SceneTree
 
 var checks := 0
+var failures := 0
 
 func _initialize() -> void:
 	call_deferred("run")
@@ -8,7 +9,7 @@ func _initialize() -> void:
 func check(condition: bool, message: String) -> void:
 	if not condition:
 		push_error(message)
-		quit(1)
+		failures += 1
 		return
 	checks += 1
 
@@ -78,6 +79,10 @@ func run() -> void:
 	check(camera.position.is_equal_approx(start), "Released controls must not move the camera")
 	camera.reset_view()
 	check(camera.position.is_equal_approx(Vector3(12,17,66)), "Reset must return to the valley entrance")
-	print("PASS: %d free-camera behavior checks" % checks)
 	camera.free()
-	quit(0)
+	if failures:
+		print("FAIL: %d camera checks failed; %d passed" % [failures,checks])
+		quit(1)
+	else:
+		print("PASS: %d free-camera behavior checks" % checks)
+		quit(0)

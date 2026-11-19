@@ -1,5 +1,7 @@
 # Valley of Tears
 
+![The Weeping Wardens](blender/valley-of-tears.png)
+
 A dark fantasy valley watched over by two stone mourners. Their tears feed a
 jade river beneath a ruined pilgrim bridge and a forgotten sanctuary.
 
