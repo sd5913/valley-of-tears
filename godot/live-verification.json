@@ -1,0 +1,13 @@
+{
+	"adapter": "NVIDIA GeForce RTX 3060 Laptop GPU",
+	"checks": [
+		"Godot produced a real rendered framebuffer",
+		"Click captures the flight controls",
+		"W moves the camera in the running scene",
+		"E raises the camera in the running scene",
+		"Esc releases the captured mouse",
+		"R restores the entrance viewpoint"
+	],
+	"mesh_instances": 687,
+	"renderer": "forward_plus"
+}

@@ -1,0 +1,10 @@
+.godot/
+__pycache__/
+*.pyc
+*.log
+*.blend1
+*.blend2
+*.part.mp4
+godot/diagnostic-*
+godot/godot-no-*
+

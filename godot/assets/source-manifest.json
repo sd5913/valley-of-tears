@@ -1,0 +1,108 @@
+{
+  "source": "blender/valley-of-tears-flyby.blend",
+  "scene": "VALLEY OF TEARS | The Weeping Wardens",
+  "axis_conversion": "Blender (x,y,z) -> Godot (x,z,-y)",
+  "converted_curves": 95,
+  "excluded_volume_objects": [
+    "Atmosphere | aerial perspective",
+    "Mist | drifting spray bank 0",
+    "Mist | drifting spray bank 1",
+    "Mist | drifting spray bank 2",
+    "Mist | drifting spray bank 3"
+  ],
+  "materials": [
+    "Atmosphere | blue valley haze",
+    "Basalt | rain-darkened striated stone",
+    "Carved recesses",
+    "Distance | mountain layer 0",
+    "Distance | mountain layer 1",
+    "Distance | mountain layer 2",
+    "Distance | mountain layer 3",
+    "Foliage | dusk olive",
+    "Foliage | pale lichen",
+    "Foliage | silver sage",
+    "Lanterns | warm living flame",
+    "Mist | soft billows of waterfall spray",
+    "Moss | deep velvet green",
+    "Old brass",
+    "Pilgrim | faded ochre cloak",
+    "River | deep glacial jade",
+    "Sanctuary | ancient chalk and lichen",
+    "Sky | pale setting moon",
+    "Tears | aerated silver water",
+    "Tears | white foam",
+    "Trees | charcoal bark",
+    "Wardens | weathered pale limestone",
+    "Wetland | sedge green",
+    "Wetland | shadow fern",
+    "Wetland | silver reed",
+    "Wetland | straw gold",
+    "Wildlife | distant ravens",
+    "Willow | deep sage",
+    "Willow | olive highlights",
+    "Willow | silver underside"
+  ],
+  "point_lights": [
+    {
+      "name": "Lantern | pool of warmth",
+      "position": [
+        3.96724534034729,
+        7.9394450187683105,
+        -11.65999984741211
+      ],
+      "color": [
+        1.0,
+        0.33000001311302185,
+        0.07000000029802322
+      ],
+      "power": 55.0,
+      "radius": 0.30000001192092896
+    },
+    {
+      "name": "Lantern | pool of warmth.001",
+      "position": [
+        -6.552754878997803,
+        2.799999952316284,
+        -10.520000457763672
+      ],
+      "color": [
+        1.0,
+        0.33000001311302185,
+        0.07000000029802322
+      ],
+      "power": 55.0,
+      "radius": 0.30000001192092896
+    },
+    {
+      "name": "Lantern | pool of warmth.002",
+      "position": [
+        16.847246170043945,
+        2.799999952316284,
+        -10.520000457763672
+      ],
+      "color": [
+        1.0,
+        0.33000001311302185,
+        0.07000000029802322
+      ],
+      "power": 55.0,
+      "radius": 0.30000001192092896
+    },
+    {
+      "name": "Sanctuary | memory of fire",
+      "position": [
+        -2.0,
+        5.0,
+        -105.0
+      ],
+      "color": [
+        1.0,
+        0.44999998807907104,
+        0.10999999940395355
+      ],
+      "power": 350.0,
+      "radius": 1.399999976158142
+    }
+  ],
+  "portable_asset": "assets/valley.glb"
+}
